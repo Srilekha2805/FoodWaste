@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_waste/authentication.dart';
-import 'package:food_waste/initial.dart';
+import 'file:///E:/Android/food_waste/lib/order/choice.dart';
+import 'home.dart';
 
 class SignUp extends StatefulWidget {
   @override
@@ -104,8 +105,8 @@ class _SignUpState extends State<SignUp> {
                             icon: Icon(
                               // Based on passwordVisible state choose the icon
                               _obscureText
-                                  ? Icons.visibility
-                                  : Icons.visibility_off,
+                                  ? Icons.visibility_off
+                                  : Icons.visibility,
                               color: Colors.black45,
                             ),
                             onPressed: () {
